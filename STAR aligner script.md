@@ -11,8 +11,6 @@ STAR (https://github.com/alexdobin/STAR)
 STAR --runThreadN 7 --genomeDir /file/genomas_ref/GRCh38/ --readFilesCommand gunzip -c --readFilesIn SUB_9_1.fastq.gz   --quantMode GeneCounts --outFileNamePrefix ./sub9/ --genomeLoad LoadAndKeep
 
 
-
-
 **Script explanation:**
 
 
@@ -33,17 +31,6 @@ STAR --runThreadN 7 --genomeDir /file/genomas_ref/GRCh38/ --readFilesCommand gun
 **--outFileNamePrefix** ./sub9/: Specifies the prefix for the output files. In this example, the output files will be stored in the directory ***./sub9/***
 
 **--genomeLoad LoadAndKeep:** Specifies that the reference genome should be loaded into shared memory and kept there for future STAR runs
-
-
-
-
-
-
-
-
-
-
-
 
 
 **Reference genome:**
