@@ -8,3 +8,6 @@ Hisat2 (https://daehwankimlab.github.io/hisat2/)
 
 #!/bin/bash 
 /ngs/programas/hisat2-2.1.0/hisat2 -p 7 -q --dta -x /ngs/genomas_ref/Rattus_norvegicus/hisat2_index/Rattus_norvegicus.Rnor_6.0.dna.toplevel -1 SUB_1_1.fastq.gz -2 SUB_1_2.fastq.gz -S alinha_sub1.sam
+
+# **Script explanation:**
+
