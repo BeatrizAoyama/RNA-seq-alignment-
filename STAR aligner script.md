@@ -4,14 +4,14 @@ Link:
 STAR (https://github.com/alexdobin/STAR)
 
 
-**Script:**
+# **Script:**
 
 #!/bin/bash
 
 STAR --runThreadN 7 --genomeDir /file/genomas_ref/GRCh38/ --readFilesCommand gunzip -c --readFilesIn SUB_9_1.fastq.gz   --quantMode GeneCounts --outFileNamePrefix ./sub9/ --genomeLoad LoadAndKeep
 
 
-**Script explanation:**
+# **Script explanation:**
 
 
 **#!/bin/bash:** This file is going to be executed
@@ -33,7 +33,7 @@ STAR --runThreadN 7 --genomeDir /file/genomas_ref/GRCh38/ --readFilesCommand gun
 **--genomeLoad LoadAndKeep:** Specifies that the reference genome should be loaded into shared memory and kept there for future STAR runs
 
 
-**Reference genome:**
+# **Reference genome:**
 
 **Human:** *GRCh38* or *hg38*
 
