@@ -37,6 +37,9 @@ Hisat2 (https://daehwankimlab.github.io/hisat2/)
 
 # Transforming .sam into .bam files:
 
+The final files are in *.sam* format, but they are very large and therefore need to be converted to *.bam* format. BAM files are compact and save storage space, in addition to being faster to read and write. If its is necessary, the programmer can remove the *.sam* format files to save storage space using the command **rm name_of_file**
+
+
 # Script:
 
 #!/bin/bash
@@ -57,7 +60,8 @@ samtools sort alinha_sub1.bam > alinha_sub1.sort.bam
 **alinha_sub1.sam:** it is the input SAM file
 
 **>** redirects the output to alinha_sub1.bam, which is the output BAM file
-samtools sort is the command to sort the BAM file
+
+**samtools sort:** it is the command to sort the BAM file
 
 **alinha_sub1.bam:** it is the input BAM file
 
